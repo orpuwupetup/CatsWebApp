@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>orpuwupetup.example.com</groupId>
+  <artifactId>projekt.kobiety.do.kodu</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>projekt.kobiety.do.kodu</name>
+  <url>https://kobietydokodu.pl/kurs-javy/</url>
+  <description>Means of learning Java EE and building web aplications with Java</description>
+  <modules>
+  	<module>cats-domain</module>
+  	<module>cats-application</module>
+
+  	<module>cats-webapp</module>
+  </modules>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+</project>
