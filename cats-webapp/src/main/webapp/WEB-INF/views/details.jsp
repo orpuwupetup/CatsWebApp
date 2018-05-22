@@ -3,33 +3,31 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Szczegóły kota</title>
+		<title>Cats details</title>
 	</head>
 	<body>
-		<a href="lista">Powrót do listy kotów</a><br />
+		<a href="list">Return to the list of cats</a><br />
 		<table border="1">
 			<tbody>
 				<tr>
-					<th>Imię</th>
+					<th>Name</th>
 					<td>Tesla</td>
 				</tr>
 				<tr>
-					<th>Data urodzenia</th>
+					<th>Birth date</th>
 					<td>12.04.2013</td>
 				</tr>
 				<tr>
-					<th>Waga</th>
+					<th>Weight</th>
 					<td>6.0 kg</td>
 				</tr>
 				<tr>
-					<th>Imię opiekuna</th>
+					<th>Owners name</th>
 					<td>Ania</td>
 				</tr>
 			</tbody>
 		</table>
 		<br />
 		<hr />
-		Uwaga! W kontekście użycia HTML oraz sposobu budowania stron, te rozwiązania są bardziej antyprzykładem niż materiałem do nauki!<br />
-		Jeśli chciałabyś także tworzyć same widoki i pisac poprawny, dobrze skonstruowany kod HTML, zachęcamy do zapoznania się np. z frameworkiem <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>.
 	</body>
 </html>

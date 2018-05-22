@@ -1,4 +1,4 @@
-package org.cats.application;
+package orpuwupetup.example.com.cats.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,8 @@ import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import org.cats.domain.Cat;
+import orpuwupetup.example.com.cats.domain.Cat;
+
 
 
 

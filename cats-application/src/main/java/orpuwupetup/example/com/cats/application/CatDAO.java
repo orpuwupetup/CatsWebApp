@@ -1,10 +1,10 @@
-package org.cats.application;
+package orpuwupetup.example.com.cats.application;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.cats.domain.Cat;
 import org.springframework.stereotype.Repository;
+
+import orpuwupetup.example.com.cats.domain.Cat;
 
 @Repository
 public class CatDAO {

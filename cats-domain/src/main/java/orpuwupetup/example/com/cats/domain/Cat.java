@@ -1,4 +1,4 @@
-package org.cats.domain;
+package orpuwupetup.example.com.cats.domain;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
