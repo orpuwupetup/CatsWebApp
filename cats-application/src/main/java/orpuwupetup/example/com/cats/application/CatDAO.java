@@ -18,7 +18,6 @@ public class CatDAO {
 	public void putInCat(Cat cat) {
 		
 		catsList.add(cat);
-		
 	}
 	
 	public List<Cat> getCatsList() {
@@ -32,5 +31,4 @@ public class CatDAO {
 			return null;
 		}
 	}
-	
 }
