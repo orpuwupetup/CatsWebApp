@@ -57,11 +57,13 @@ public class CatsController{
 			cat.setName(catDto.getName());
 			cat.setOwnersName(catDto.getOwnersName());
 			cat.setWeight(catDto.getWeight());
-			dao.putInCat(cat);
 			
+			// after correct input form the user in all of the lines, add cat to the data base, and redirect user to the view of the list
+			dao.putInCat(cat);
 			return "redirect:/list";
 		}
-		
+	
+		// if something was wrong with user input, or if the request was made with code other than 'POST', return user to the Add page
 		return "add";
 	}
 	
