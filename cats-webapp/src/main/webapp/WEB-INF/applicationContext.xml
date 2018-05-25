@@ -14,6 +14,8 @@
 		pakiecie -->
 	<context:annotation-config /> <!-- To na przyszłość, pozwoli nam korzystać z adnotacji także w klasach, 
 		które byśmy skonfigurowali ręcznie -->
+	
+	<mvc:annotation-driven />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
